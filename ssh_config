@@ -1,0 +1,62 @@
+Host aliyun
+    Hostname 115.28.38.126
+
+Host hy
+    Hostname dreamlabchina.com
+    user tiany
+    port 9023
+    IdentityFile ~/.ssh/id_rsa.hy
+
+Host localserver
+    Hostname 192.168.0.18
+    user tiany
+    port 9023
+
+Host no-name-ls
+    Hostname 192.168.0.18
+    port 9023
+
+Host linode
+    Hostname linode.tiany.me
+    user tiany
+
+#ssh -p 9023 root@45.32.43.222
+Host vultr
+    #Hostname 45.32.43.222
+    Hostname 45.32.29.250
+    user tiany
+    port 9023
+    IdentityFile ~/.ssh/vultr_id_rsa
+
+Host uc
+    #Hostname 123.59.77.38
+    Hostname uc.dreamlabchina.com
+    user tiany
+    port 9023
+
+Host uc-bj
+    Hostname 123.59.77.38
+    #Hostname uc.dreamlabchina.com
+    user tiany
+    port 9023
+
+Host sh
+    Hostname 121.41.58.248
+    user tiany
+    IdentityFile ~/.ssh/id_rsa.sh
+    port 9023
+
+Host umj
+    Hostname umj.hanyunsh.com
+    user tiany
+    port 9023
+
+Host umjp
+    Hostname 106.15.40.218
+    user tiany
+    port 9023
+
+Host ft
+    Hostname 139.224.116.147
+    user tiany
+    port 9023
